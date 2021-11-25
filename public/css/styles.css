@@ -173,6 +173,17 @@ article div.main-article{
     padding: 15px;
 }
 
+.fa-truck {
+  margin-top: -30px;
+  margin-right: 20px;
+  transition: all 1s;
+}
+
+.fa-truck:hover {
+  color: red;
+  transform: rotate(-90deg);
+}
+
 @media (min-width: 361px){
     main section article .description{
         display: block;
